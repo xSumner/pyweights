@@ -1,0 +1,11 @@
+*.pyc
+__pycache__
+*~
+.DS_Store
+build/*
+
+# Generated while building documentation.
+doc/tmp/*
+
+# Generated when 'python setup_egg.py'
+
