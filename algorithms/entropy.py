@@ -1,5 +1,7 @@
 import numpy as np
 import numpy
+__author__ = '''Xia Tian (xsumner@hotmail.com)'''
+
 
 def matrix_standardization(M):
     # if M != numpy.ndarray:
