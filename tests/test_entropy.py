@@ -1,4 +1,4 @@
-from algorithms import entropy, coefficient_of_variation
+from pyweights import entropy, coefficient_of_variation
 import numpy as np
 
 

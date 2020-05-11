@@ -1,0 +1,13 @@
+README.md
+setup.py
+pyweights/AHP.py
+pyweights/PCA.py
+pyweights/__init__.py
+pyweights/_version.py
+pyweights/coefficient_of_variation.py
+pyweights/entropy.py
+pyweights.egg-info/PKG-INFO
+pyweights.egg-info/SOURCES.txt
+pyweights.egg-info/dependency_links.txt
+pyweights.egg-info/requires.txt
+pyweights.egg-info/top_level.txt

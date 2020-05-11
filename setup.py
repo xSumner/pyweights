@@ -23,7 +23,7 @@ EMAIL = 'xsumner@hotmail.com'
 with open(path.join(DIR, 'requirements.txt')) as f:
     INSTALL_PACKAGES = f.read().splitlines()
 
-with open(path.join(DIR, 'README.md')) as f:
+with open(path.join(DIR, 'README.md'), encoding='UTF-8') as f:
     README = f.read()
 
 # get __version__ from _version.py
@@ -33,19 +33,18 @@ with open(ver_file) as f:
 
 VERSION = __version__
 
-packages=["pyweights",
-          "pyweights.algorithms"]
+packages=["pyweights"]
 
 # add the tests
 package_data     = {
     'pyweights': ['tests/*.py'],
-    'pyweights.algorithms': ['tests/*.py']
+    'pyweights.pyweights': ['tests/*.py']
     }
 
 
 setup(
     name='pyweights',
-    packages=['pyweights'],
+    packages=packages,
     description=DESCRIPTION,
     long_description=README,
     long_description_content_type='text/markdown',
@@ -56,7 +55,6 @@ setup(
     author_email=EMAIL,
     keywords=['weighting', 'scoring', 'comprehensive system'],
     tests_require=['pytest',],
-    packages=packages,
     package_data=package_data,
     include_package_data=True,
     python_requires='>=3'

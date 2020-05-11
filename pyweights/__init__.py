@@ -10,7 +10,7 @@ PyWeights
 #-*- coding:utf-8 -*-
 
 # There are import oderwise
-import pyweights.algorithms
-from pyweights.algorithms import *
+import pyweights
+from pyweights import *
 
 # Need to test with Numpy, when available

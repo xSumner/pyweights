@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pyweights
+Version: 0.0.1
+Summary: PyWeights (wt) is a Python package for the weighting, scoring, and evaluating of comprehensive system.
+Home-page: https://github.com/xSumner/pyweights
+Author: Xia Tian
+Author-email: xsumner@hotmail.com
+License: UNKNOWN
+Description: ## 多指标综合评价算法
+        
+        在统计理论和实践中，权重是表明各个评价指标（或者评价项目）重要性的权数，表示各个评价指标在总体中所起的不同作用。权重有不同的种类，各种类别的权重有着不同的数学特点和含义，一般有以下几种权重。
+        
+        本工具是基于 numpy 实现的可以方便使用的综合评价算法包，目前计划要包含的算法有：
+        
+        1. 主观赋权方法
+        
+            - [ ] 德尔菲法（Delphi）
+            - [ ] 层次分析法（AHP）
+            - [ ] 模糊综合评价法
+            - [ ] 序图法
+            - [ ] .......
+        
+        2. 客观赋权法
+        
+            - [x] 变异系数法
+        
+            - [x] 熵权法（熵值法）
+            - [ ] 主成分分析法
+            - [ ] 指数加权移动平均（EMA）
+            - [ ] 神经网络分析法
+            - [ ] 灰色关联分析法
+            - [ ] .......
+        
+        3. 组合赋权方法
+        
+            - [ ] 乘法合成
+            - [ ] 线性加权
+        
+        
+        
+        **算法博客列表：**
+        
+        - [多指标综合评价算法（一）：变异系数法](https://mp.weixin.qq.com/s/1fxw4tnKmxqTZIYjQY4xiQ)
+        - [多指标综合评价算法（二）：熵权法](https://mp.weixin.qq.com/s/bea9u0jqfhBH5z88LVNWEQ)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+Keywords: weighting,scoring,comprehensive system
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
